@@ -25,8 +25,7 @@ class OldFilesArchiver:
     
     
     """
-      log_action will report every action will happen during the synchronization,
-      whether a file has been copied, deleted or updated.
+      log_action will report everytime a file is archived.
     """
      
     def log_action(self, message):
